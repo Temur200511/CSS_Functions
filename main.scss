@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+@mixin paragraph-style($color, $font-size, $font-weight, $line-height)
+{
+color: $color;
+font-size: $font-size;
+font-weight: $font-weight;
+
+}
+
+@mixin button-style($color, $padding, $font-size, $border)
+{
+    color: $color;
+    padding: $padding;
+    font-size: $font-size;
+    border: $border;
+}
+
+.background{
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+
+
+header{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 530px;
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: #3F3B3D;
+                font-size: 14px;
+            }
+            a:hover{
+                cursor: pointer;
+                color: #5c575a8a;
+            }
+        }
+    }
+
+    .pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+.buy{
+    @include button-style(#3F3B3D, 12px 18px, 12px, none);
+    background-color: #DDDBDA;
+}
+.buy:hover{
+    cursor: pointer;
+    background-color: #3f3b3d;
+    color: #DDDBDA;
+    transition: all 0.3s ease;
+}
+
+.korzina{
+    background-color: #f8f9fa2a;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+border: 1px solid #e3e3e3;
+background-color: #e3e3e3ca;
+padding: 8px;
+}
+
+}
+
+}
+}
+
+
+.background_2{
+
+position: relative;
+    .container{
+        max-width: 1220px;
+        margin: 0 auto;
+    background-color: #3F3B3D;
+position: relative;
+    }
+    .px_33{
+font-size: 33px;
+font-weight: 400;
+line-height: 42.5px;
+text-align: left;
+    }
+
+    .section{
+        padding-top: 260px;
+        margin-top: 98px;
+        padding-bottom: 60px;
+    }
+    .hundreds{
+        padding-left: 60px;
+        width: 430px;
+        color: #FFFFFF;
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-left: 60px;
+        margin-top: 28px;
+        .shop{
+            @include button-style(#FFFFFF,11px 26px , 16px, none);
+            background-color: #F14814;
+
+        }
+
+        .browse{
+            @include button-style(#FFFFFF,11px 26px , 16px, none);
+background-color: #3F3B3D;
+        }
+
+        button:hover{
+            cursor: pointer;
+            scale: 1.02;
+        }
+        .shop:hover{
+            background-color: #f11414;
+        }
+        .browse:hover{
+            background-color: hsla(330, 6%, 37%, 0.948);
+        }
+    }
+
+    .posab{
+        position: absolute;
+        right: 0px;
+        top: -78px;
+        width: 750px;
+        
+    }
+}
+
+
+
+.container_2{
+    max-width: 1220px;
+    margin: 0 auto;
+
+    padding-top: 70px;
+ .ready{
+ text-align: center;
+ margin: auto;
+ color: #F14814;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 1px;
+text-align: center;
+ }
+
+ .enamel{
+font-size: 27px;
+font-weight: 400;
+line-height: 37.32px;
+letter-spacing: 0.5600000023841858px;
+text-align: center;
+width: 700px;
+margin: auto;
+padding-top: 16px;
+ }
+
+ .px_21{
+font-size: 21px;
+font-weight: 400;
+line-height: 24.96px;
+text-align: center;
+color: #3F3B3D;
+padding: 13px 0;
+ }
+
+ .px_12{
+    color: #3F3B3D;
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+text-align: center;
+ }
+
+ .recommend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 59px 0 128px 0;
+
+    .free_art{
+        text-align: center;
+    }
+ }
+
+ .products img{
+    width: 33%;
+ }
+
+ .collections{
+    position: relative;
+    margin-bottom: 64px;
+    img{
+        width: 49.5%;
+     }
+
+     .px_39{
+font-size: 39px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0.4399999976158142px;
+color: #FFFFFF;
+
+     }
+
+     .all{
+        position: absolute;
+        bottom: 54px;
+        left: 240px;
+     }
+     .everything{
+        position: absolute;
+        left: 250px;
+        bottom: 23px;
+     }
+     .px_14{
+        color: #FFFFFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.66px;
+
+}
+
+
+.collection{
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+}
+
+.start{
+    bottom: 23px;
+    right: 270px;
+    position: absolute;
+}
+ }
+ 
+}
+
+
+
+.background_3{
+background-color: #F8F9FA;
+
+
+.px_39{
+    padding-top: 129px;
+    color: #3F3B3D;
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    line-height: 35px;
+}
+
+.story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    padding-top: 35px;
+}
+
+.px_24{
+    color: #3F3B3D;
+font-size: 24px;
+font-weight: 400;
+line-height: 31.99px;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 31.99px;
+text-align: center;
+width: 408px;
+
+}
+
+.best{
+    border: 1px solid #DCEAE9;
+    padding: 204px 60px;
+    background-color: #DCEAE9;
+}
+
+.brands {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 80px;
+padding-top: 65px;
+
+div{
+    text-align: center;
+}
+
+     p{
+        color: #3F3B3D;
+width: 237px;
+padding: 17px 0 75px 0;
+    }
+}
+}
+
+.container{
+max-width: 1220px;
+margin:0 auto;
+
+.mis_jour{
+    padding-top: 65px;
+padding-bottom: 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+}
+
+    .miscons{
+        position: relative;
+    
+
+    .february{
+        width: 415px;
+        position: absolute;
+        bottom: 16px;
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+        padding: 30px 39px;
+        text-align: center;
+        align-items: center;
+        margin-left: 45px;
+    }
+.px_16{
+font-size: 16px;
+font-weight: 500;
+line-height: 21.33px;
+text-align: center;
+padding: 6px 0 9px 0;
+}
+.px_24{
+font-size: 24px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+
+}
+    }
+
+    .px_52{
+font-size: 52px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0.5600000023841858px;
+text-align: left;
+    }
+
+    .read{
+        padding-top: 12px;
+    }
+
+    .predicttions{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 180px;
+        padding-bottom: 12px;
+    }
+
+
+.predict{
+display: flex;
+gap: 32px;
+
+    .px_17{
+        color: #3F3B3D;
+        font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+    }
+    
+}
+
+
+
+}
+
+
+.background_4{
+background-color: #3F3B3D;
+
+.px_29{
+    color: #FFFFFF;
+font-size: 29px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+width: 320px;
+padding: 95px 0 32px 0;
+text-transform: uppercase;
+}
+
+.hats{
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 30px;
+
+    img{
+        width: 23%;
+    }
+
+   
+}
+
+footer{
+    .px_24{
+        font-family: Roboto;
+font-size: 24px;
+font-weight: 400;
+line-height: 31.99px;
+text-align: left;
+color: #FFFFFF;
+padding-top: 66px;
+width: 430px;
+    }
+    .line{
+    padding-top: 65px;
+    }
+
+    .foot_sectio{
+        display: flex;
+align-items: center;
+gap: 140px;
+        padding-top: 65px;
+
+    .right_foot{
+        padding-top: 35px;
+        display: flex;
+        justify-content: center;
+        gap: 110px;
+        
+a:hover{
+    color: #e3e3e3;
+}
+
+        p a{
+            color: #FFFFFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+text-align: left;
+text-decoration: none;
+        }
+    }
+
+    p:nth-child(2){
+        padding-top: 15px;
+    }
+}
+
+
+
+.foot_last{
+    margin-top: 50px;
+    display: flex;
+align-items: center;
+gap: 720px;
+
+padding-bottom: 31px;
+    p:nth-child(1){
+        color: #FFFFFF;
+        font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+text-align: left;
+
+    }
+
+    p:nth-child(2){
+        color: #f11414;
+        font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.33px;
+text-align: left;
+
+    }
+
+    .pulstar{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button{
+        @include button-style(#FFFFFF, 9px 12px, 16px, none );
+        background-color:#f11414
+    }
+
+    button:hover{
+        scale: 1.02;
+        background-color: #F14814;
+        cursor: pointer;
+    }
+}
+
+}
+
+}
+
+
+
+@media (max-width: 1300px) 
+{
+   .background .container header {
+        gap: 400px;
+    }
+    
+    .background_2{
+        .posab{
+            width: 55%;
+            top: 10px;
+            right: 0px;
+        }
+        .container{
+max-width: 90%;
+        }
+    }
+
+    .container_2{
+        .products{
+            width: 90%;
+            margin-left: 40px;
+        }
+
+        .collections{
+            img{
+                width: 46%;
+                
+            }
+            .firs{
+                margin-left: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) 
+{
+    .miscons{
+        .designer{
+            margin-left: 30px;
+width: 90%;
+        }
+        .february{
+width: 90%;
+        }
+       
+    }
+    #Journal .mis_jour{
+        gap: 30px;  
+
+        .predicttions{
+            margin-top: 100px;
+        }
+        
+        .Journal{
+            width: 52%;
+            margin-right: 30px;
+        }
+    }
+
+.background_3 .brands{
+    gap: 30px;
+}
+
+.background_4 {
+.px_29
+{
+    margin-left: 30px;
+}
+
+.hats{
+    width: 90%;
+    margin-left: 30px;
+}
+}
+ 
+footer{
+    .foot_sectio, line, .pulstar{
+        margin-left: 30px;
+    }
+
+   
+}
+.background_4{
+   footer .foot_sectio{
+        gap: 50px;
+    }
+}
+}
+
+@media (max-width: 1110px) 
+{
+    .background{
+       .container header{
+            gap: 200px;
+        }
+    }
+    .background_2 .container{
+         .posab{
+              width: 55%;
+              top: 70px;
+              right: 0;
+          }
+      }
+}
