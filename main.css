@@ -515,4 +515,42 @@ html {
     top: 70px;
     right: 0;
   }
+  .background_3 .story img {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .background_3 .best {
+    margin-right: 30px;
+  }
+  .background_4 footer .foot_last {
+    gap: 500px;
+  }
+  .background_4 footer .foot_sectio .right_foot {
+    gap: 50px;
+  }
+  .background_3 .brands {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .background_3 .brands img {
+    width: 24%;
+  }
+  .background_3 .best {
+    padding: 100px 25px;
+  }
+  .background_3 .best .px_24 {
+    white-space: wrap;
+  }
+}
+@media (max-width: 930px) {
+  .background_4 .foot_sectio {
+    flex-direction: column;
+  }
+  .background_4 .foot_last {
+    flex-direction: column;
+    gap: 30px;
+    row-gap: 30px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
