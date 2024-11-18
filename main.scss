@@ -700,7 +700,14 @@ justify-content: center;
     }
 }
 
-
+@media (max-width: 1020px) 
+{
+.container .mis_jour{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
 
 @media (max-width: 930px) 
 {
@@ -716,4 +723,26 @@ justify-content: center;
             column-gap: 30px;
         }
     }
+}
+
+@media (max-width: 893px) 
+{
+   .background .container header
+    {
+        gap: 70px;
+    }
+}
+
+@media (max-width: 830px) 
+{
+    .background_3 .story{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+        img{
+            width: 55%;
+        }
+    }
+
 }
